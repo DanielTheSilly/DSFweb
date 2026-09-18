@@ -1,0 +1,8 @@
+name = "The Deliberate Self Framework"
+compatibility_date = "2026-09-18"
+
+[build]
+command = "hugo"
+
+[assets]
+directory = "./public"
