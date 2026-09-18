@@ -1,3 +1,5 @@
 baseURL = "/DSFweb"
 languageCode = "en-us"
 title = "the-deliberate-self-framework"
+[permalinks]
+  categories = "/:slug/"
