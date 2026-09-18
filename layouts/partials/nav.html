@@ -1,11 +1,9 @@
 <nav>
   <ul>
     <li>
-      <!-- Hugo uses .Site.BaseURL or just "/" for root -->
       <a href="/">Home</a>
     </li>
 
-    <!-- Loop through categories -->
     {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
       <li class="dropdown">
 
@@ -14,7 +12,6 @@
         </a>
 
         <div class="dropdown-content">
-          <!-- Loop through each post inside this category -->
           {{ range $taxonomy.Pages }}
             <a href="{{ .RelPermalink }}">
               {{ .Title }}
