@@ -1,7 +1,4 @@
----
-title: "DFS Home"
-layout: "default"
----
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,11 +6,11 @@ layout: "default"
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="noai,noimageai">
   <title>The Deliberate Self Framework</title>
-  <link rel="stylesheet" href="{{ '/style/style.css' | relative_url }}">
+  <link rel="stylesheet" href="/style/style.css">
 </head>
 <body>
 
-  {{ include nav.html }}
+{{ partial "nav.html" . }}
   
   <header>
     <h1>The Deliberate Self Framework</h1>
@@ -37,5 +34,3 @@ layout: "default"
   </footer>
 </body>
 </html>
-
-{{ include nav.html }}
