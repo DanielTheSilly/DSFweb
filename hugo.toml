@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://dsfweb.faceshed.workers.dev/"
 languageCode = "en-us"
 title = "the-deliberate-self-framework"
 [permalinks]
