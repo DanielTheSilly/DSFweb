@@ -3,7 +3,7 @@
     <li>
       <a href="/">Home</a>
     </li>
-
+<pre>{{ debug.Dump .Site.Taxonomies }}</pre>
     {{ range $name, $taxonomy := .Site.Taxonomies.category }}
       <li class="dropdown">
 
