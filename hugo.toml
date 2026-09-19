@@ -1,4 +1,4 @@
-baseURL = "/DSFweb"
+baseURL = "/"
 languageCode = "en-us"
 title = "the-deliberate-self-framework"
 [permalinks]
